@@ -49,7 +49,7 @@
                       <h2 class="card-title font-semibold text-2xl">Pink !</h2>
                       <p>If a dog chews shoes whose shoes does he choose?</p>
                       <h3 class="text-lg font-bold">Price: <span>12</span>$</h3>
-                      <div class="card-actions justify-end">
+                      <div onclick="handleBtn(this)" class="card-actions justify-end">
                         <button class="btn btn-primary">Buy Now</button>
                       </div>
                     </div>
@@ -61,8 +61,8 @@
                       <h2 class="card-title font-semibold text-2xl">Yellow !</h2>
                       <p>If a dog chews shoes whose shoes does he choose?</p>
                       <h3 class="text-lg font-bold">Price: <span>8</span>$</h3>
-                      <div class="card-actions justify-end">
-                        <button class="btn btn-primary">Buy Now</button>
+                      <div onclick="handleBtn(this)" class="card-actions justify-end">
+                        <button  class="btn btn-primary">Buy Now</button>
                       </div>
                     </div>
                   </div>
@@ -73,15 +73,16 @@
                       <h2 class="card-title font-semibold text-2xl">Red !</h2>
                       <p>If a dog chews shoes whose shoes does he choose?</p>
                       <h3 class="text-lg font-bold">Price: <span>28</span>$</h3>
-                      <div class="card-actions justify-end">
-                        <button class="btn btn-primary">Buy Now</button>
+                      <div onclick="handleBtn(this)" class="card-actions justify-end">
+                        <button  class="btn btn-primary">Buy Now</button>
                       </div>
                     </div>
                   </div>
             </section>
             <section class="text-center mx-auto pr-6">
                 <h3>All produce</h3>
-                <p>Total: <span>00</span> $</p>
+                <div id="new-list"></div>
+                <p>Total: <span id="add-total">00</span> $</p>
                 <p>Discount: <span>00</span> $</p>
                 <div class="border-2 "></div>
                 <br>
