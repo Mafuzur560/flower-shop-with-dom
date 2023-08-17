@@ -8,11 +8,86 @@
     <title>Flower Shop</title>
 </head>
 <body>
-    <header>
-        
+    <header class="mx-auto ">
+        <nav>
+            <div class="navbar bg-base-100">
+                <div class="flex-1">
+                  <a class="btn btn-ghost normal-case text-xl">Flower <span class="text-green-400">Shop</span></a>
+                </div>
+                <div class="flex-none gap-2">
+                  <div class="form-control">
+                    <input type="text" placeholder="Search" class="input input-bordered w-24 md:w-auto" />
+                  </div>
+                  <div class="dropdown dropdown-end">
+                    <label tabindex="0" class="btn btn-ghost btn-circle avatar">
+                      <div class="w-10 rounded-full">
+                        <img src="./images/Rectangle 6.png" />
+                      </div>
+                    </label>
+                    <ul tabindex="0" class="mt-3 z-[1] p-2 shadow menu menu-sm dropdown-content bg-base-100 rounded-box w-52">
+                      <li>
+                        <a class="justify-between">
+                          Profile
+                          <span class="badge">New</span>
+                        </a>
+                      </li>
+                      <li><a>Settings</a></li>
+                      <li><a>Logout</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+        </nav>
     </header>
-    <main>
-
+    <main class="container mx-auto md:px-0 py-16">
+        <section class="flex gap-16">
+            <section class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- card 01 -->
+                <div class="card  bg-base-100 shadow-xl">
+                    <figure><img src="./images/pngwing 6.png" class="h-64" alt="Shoes" /></figure>
+                    <div class="card-body">
+                      <h2 class="card-title font-semibold text-2xl">Pink !</h2>
+                      <p>If a dog chews shoes whose shoes does he choose?</p>
+                      <h3 class="text-lg font-bold">Price: <span>12</span>$</h3>
+                      <div class="card-actions justify-end">
+                        <button class="btn btn-primary">Buy Now</button>
+                      </div>
+                    </div>
+                  </div>
+                <!-- card 02 -->
+                <div class="card  bg-base-100 shadow-xl">
+                    <figure><img src="./images/pngwing 7.png" class="h-64" alt="Shoes" /></figure>
+                    <div class="card-body">
+                      <h2 class="card-title font-semibold text-2xl">Yellow !</h2>
+                      <p>If a dog chews shoes whose shoes does he choose?</p>
+                      <h3 class="text-lg font-bold">Price: <span>8</span>$</h3>
+                      <div class="card-actions justify-end">
+                        <button class="btn btn-primary">Buy Now</button>
+                      </div>
+                    </div>
+                  </div>
+                <!-- card 03 -->
+                <div class="card  bg-base-100 shadow-xl">
+                    <figure><img src="./images/pngwing 8.png" class="h-64" alt="Shoes" /></figure>
+                    <div class="card-body">
+                      <h2 class="card-title font-semibold text-2xl">Red !</h2>
+                      <p>If a dog chews shoes whose shoes does he choose?</p>
+                      <h3 class="text-lg font-bold">Price: <span>28</span>$</h3>
+                      <div class="card-actions justify-end">
+                        <button class="btn btn-primary">Buy Now</button>
+                      </div>
+                    </div>
+                  </div>
+            </section>
+            <section class="text-center mx-auto pr-6">
+                <h3>All produce</h3>
+                <p>Total: <span>00</span> $</p>
+                <p>Discount: <span>00</span> $</p>
+                <div class="border-2 "></div>
+                <br>
+                <h3>Grand Price: <span>00</span> $</h3>
+            </section>
+        </section>
     </main>
     <script src="./index.js"></script>
 </body>
